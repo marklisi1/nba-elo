@@ -117,6 +117,7 @@ def elo_bar_plot(current_elos):
     return fig
 
 def elo_line_plot(elo_histories):
+    
     TEAM_COLORS = {
     'Los Angeles Lakers': 'rgb(85,37,130)',
     'Phoenix Suns': 'rgb(29,17,96)',
@@ -149,7 +150,7 @@ def elo_line_plot(elo_histories):
     'Milwaukee Bucks': 'rgb(0,71,27)',
     'Charlotte Hornets': 'rgb(0,120,140)'
     }
-
+    
     TEAM_ABBRS = {
         'Los Angeles Lakers': 'LAL',
         'Phoenix Suns': 'PHX',
@@ -182,40 +183,93 @@ def elo_line_plot(elo_histories):
         'Milwaukee Bucks': 'MIL',
         'Charlotte Hornets': 'CHA'
     }
-
     TEAM_NAMES = list(TEAM_ABBRS.keys())
     games = list(range(0, 83))
-
-    fig = go.Figure() # ha ha
+    
+    # Create figure with larger default size
+    fig = go.Figure()
+    
+    # Add teams with enhanced styling
     for team, elo in elo_histories.items():
-        fig.add_trace(go.Scatter(x=games, y=elo,
-                                mode='lines',
-                                name=TEAM_ABBRS[team],
-                                line=dict(color=TEAM_COLORS[team])))
+        # Determine line styling
+        line_width = 1
+        opacity = 0.3
         
+        if team in ['Los Angeles Lakers', 'Boston Celtics', 'Golden State Warriors']:
+            line_width = 3
+            opacity = 1.0
+        
+        # Add the line trace
+        fig.add_trace(go.Scatter(
+            x=games,
+            y=elo,
+            mode='lines',
+            name=TEAM_ABBRS[team],
+            line=dict(
+                color=TEAM_COLORS[team],
+                width=line_width
+            ),
+            opacity=opacity,
+            hovertemplate=f"{team}<br>Game: %{{x}}<br>Elo: %{{y}}<extra></extra>"
+        ))
+        
+        # Add end-of-line labels
+        fig.add_annotation(
+            x=games[-1],
+            y=elo[-1],
+            text=TEAM_ABBRS[team],
+            xanchor='left',
+            yanchor='middle',
+            xshift=5,
+            showarrow=False,
+            font=dict(
+                size=10,
+                color=TEAM_COLORS[team]
+            )
+        )
 
     fig.update_layout(
+        title=dict(
+            text='NBA Team Elo Ratings Throughout Season',
+            x=0.5,
+            y=0.95,
+            xanchor='center',
+            yanchor='top',
+            font=dict(size=24)
+        ),
         autosize=False,
         width=2000,
         height=1200,
-        plot_bgcolor='white'
+        plot_bgcolor='white',
+        showlegend=False,
+        margin=dict(r=100),
+        xaxis_title="Games Played",
+        yaxis_title="Elo Rating",
+        hovermode='closest'
     )
-
+    
     fig.update_xaxes(
         mirror=True,
         ticks='outside',
         showline=True,
         linecolor='black',
-        gridcolor='lightgrey'
+        gridcolor='lightgrey',
+        zeroline=False,
+        tickmode='linear',
+        tick0=0,
+        dtick=10
     )
+    
     fig.update_yaxes(
         mirror=True,
         ticks='outside',
         showline=True,
         linecolor='black',
-        gridcolor='lightgrey'
+        gridcolor='lightgrey',
+        zeroline=False,
+        tickformat='.0f'
     )
-
+    
     return fig
 
 def elo_delta_plot(deltas):
