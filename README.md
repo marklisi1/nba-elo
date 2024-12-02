@@ -1,0 +1,1 @@
+This project was built as a way to settle arguments among my friends about which teams are *really* the best. It's no secret that the Eastern conference is, on the whole, weaker than the West - by tracking a metric that accounts for strength of opponents, we can get a more holistic view of which teams are the toughest to beat.
