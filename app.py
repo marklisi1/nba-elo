@@ -19,7 +19,7 @@ st.header("How does it work?")
 st.write("A team gains points for winning and loses points for losing (duh). The amount of rating a team gains or loses is based on their initial rating as well as their opponents - beating a higher-rated opponent will boost a team's rating much more, and losing to a lower-rated opponent will decrease a team's rating more.")
 st.header("Why does this matter?")
 st.markdown("This project was built as a way to settle arguments among my friends about which teams are actually the best - specifically, whether the top teams in the East are overrated since they play more games in the - let's be honest, much weaker - Eastern Conference. By tracking a metric that accounts for strength of opponents, we can get a more holistic view of which teams are the toughest to beat.")
-
+st.markdown("As a note - this is the second year I've been tracking this data. Last year I seeded each team initially at 1500 Elo, and this year each team picked up right where they left off. The performance of NBA teams is much more volatile than elite chess players due to trades and injuries, so it's useful to have more informed starting values.")
 # Constants 
 TEAM_COLORS = {
     'Los Angeles Lakers': 'rgb(85,37,130)',
