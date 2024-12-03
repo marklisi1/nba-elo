@@ -12,7 +12,14 @@ st.set_page_config(layout="wide", page_title="NBA Elo Ratings")
 
 # Title and description
 st.title("NBA Elo Rating Tracker")
-st.markdown("Track NBA team performance through Elo ratings throughout the 2024-25 season.")
+st.markdown("Track which teams are *really* the NBA's best using Elo.")
+
+st.header("What's Elo?")
+st.write("Elo (not ELO) is a mathematical method for estimating the relative skill levels of players in zero-sum games; it was initially invented as a chess rating system. Here, we extend it to the NBA!")
+st.header("How does it work?")
+st.write("A team gains points for winning and loses points for losing (duh). The amount of rating a team gains or loses is based on their initial rating as well as their opponents - beating a higher-rated opponent will boost a team's rating much more, and losing to a lower-rated opponent will decrease a team's rating more.")
+st.header("Why does this matter?")
+st.markdown("This project was built as a way to settle arguments among my friends about which teams are actually the best - specifically, whether the top teams in the East are overrated since they play more games in the - let's be honest, much weaker - Eastern Conference. By tracking a metric that accounts for strength of opponents, we can get a more holistic view of which teams are the toughest to beat.")
 
 # Constants (Team colors and abbreviations remain the same as in your original code)
 TEAM_COLORS = {
@@ -378,11 +385,13 @@ def main():
 
     with tab1:
         st.header("Current NBA Team Elo Ratings")
+        st.write("This plot reflects the current Elo standings in the NBA. Higher is better!")
         fig_bar = elo_bar_plot(current_elos)
         st.plotly_chart(fig_bar, use_container_width=True)
 
     with tab2:
         st.header("Elo Rating History")
+        st.write("Here we can track each team's progress across the 2024-25 NBA season. Updated nightly!")
         # Add team selector
         focused_team = st.selectbox(
             "Select a team to focus on:",
