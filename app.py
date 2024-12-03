@@ -1,6 +1,5 @@
 import streamlit as st
 import requests
-from bs4 import BeautifulSoup
 import pandas as pd
 import time
 import pickle
@@ -21,7 +20,7 @@ st.write("A team gains points for winning and loses points for losing (duh). The
 st.header("Why does this matter?")
 st.markdown("This project was built as a way to settle arguments among my friends about which teams are actually the best - specifically, whether the top teams in the East are overrated since they play more games in the - let's be honest, much weaker - Eastern Conference. By tracking a metric that accounts for strength of opponents, we can get a more holistic view of which teams are the toughest to beat.")
 
-# Constants (Team colors and abbreviations remain the same as in your original code)
+# Constants 
 TEAM_COLORS = {
     'Los Angeles Lakers': 'rgb(85,37,130)',
     'Phoenix Suns': 'rgb(29,17,96)',
