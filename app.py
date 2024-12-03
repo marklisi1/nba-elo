@@ -89,59 +89,6 @@ TEAM_ABBRS = {
 
 # Helper functions
 @st.cache_data
-def get_schedule():
-    months = ['october','november','december','january','february','march','april']
-    current_month = datetime.now().strftime("%B").lower()
-    
-    schedule = pd.DataFrame()
-    
-    for month in months:
-        url = f"https://www.basketball-reference.com/leagues/NBA_2025_games-{month}.html"
-        
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
-
-        try:
-            time.sleep(3)
-            response = requests.get(url, headers=headers)
-            response.raise_for_status()
-            
-            soup = BeautifulSoup(response.text, 'html.parser')
-            table = soup.find('table', id='schedule')
-            
-            if table is None:
-                continue
-
-            columns = [
-                'Date', 'Start (ET)', 'Visitor/Neutral', 'away_pts',
-                'Home/Neutral', 'home_pts', 'Box Score', 'OT',
-                'Attend.', 'LOG', 'Arena', 'Notes'
-            ]
-            
-            rows = []
-            for row in table.find_all('tr')[1:]:
-                game_data = []
-                cells = row.find_all(['td', 'th'])
-                if cells:
-                    for cell in cells:
-                        text = cell.text.strip()
-                        game_data.append(text)
-                    if game_data:
-                        rows.append(game_data)
-            
-            df = pd.DataFrame(rows, columns=columns)
-            df = df[df['away_pts'] != '']
-            schedule = pd.concat((schedule, df))
-            
-            if month == current_month:
-                break
-
-        except Exception as e:
-            st.error(f"Error processing data for {month}: {str(e)}")
-            continue
-
-    return schedule
 
 def expected_score(rating_a, rating_b):
     return 1 / (1 + 10 ** ((rating_b - rating_a) / 400))
