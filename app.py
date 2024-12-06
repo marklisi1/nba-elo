@@ -11,7 +11,8 @@ st.set_page_config(layout="wide", page_title="NBA Elo Ratings")
 
 # Title and description
 st.title("NBA Elo Rating Tracker")
-st.markdown("Track which teams are *really* the NBA's best using Elo.")
+url = "https://marklisi1.github.io/"
+st.markdown("by [Mark Lisi](%s). Track which teams are *really* the NBA's best using Elo." % url)
 
 st.header("What's Elo?")
 st.write("Elo (not ELO) is a mathematical method for estimating the relative skill levels of players in zero-sum games; it was initially invented as a chess rating system. Here, we extend it to the NBA!")
