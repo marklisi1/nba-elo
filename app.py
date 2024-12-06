@@ -22,6 +22,23 @@ st.header("Why does this matter?")
 st.markdown("This project was built as a way to settle arguments among my friends about which teams are actually the best - specifically, whether the top teams in the East are overrated since they play more games in the - let's be honest, much weaker - Eastern Conference. By tracking a metric that accounts for strength of opponents, we can get a more holistic view of which teams are the toughest to beat.")
 st.markdown("As a note - this is the second year I've been tracking this data. Last year I seeded each team initially at 1500 Elo, and this year each team picked up right where they left off. The performance of NBA teams is much more volatile than elite chess players due to trades and injuries, so it's useful to have more informed starting values.")
 # Constants 
+
+CONFERENCES = {
+    'Eastern': [
+        'Atlanta Hawks', 'Boston Celtics', 'Brooklyn Nets', 'Charlotte Hornets',
+        'Chicago Bulls', 'Cleveland Cavaliers', 'Detroit Pistons', 'Indiana Pacers',
+        'Miami Heat', 'Milwaukee Bucks', 'New York Knicks', 'Orlando Magic',
+        'Philadelphia 76ers', 'Toronto Raptors', 'Washington Wizards'
+    ],
+    'Western': [
+        'Dallas Mavericks', 'Denver Nuggets', 'Golden State Warriors', 'Houston Rockets',
+        'Los Angeles Clippers', 'Los Angeles Lakers', 'Memphis Grizzlies', 
+        'Minnesota Timberwolves', 'New Orleans Pelicans', 'Oklahoma City Thunder',
+        'Phoenix Suns', 'Portland Trail Blazers', 'Sacramento Kings', 
+        'San Antonio Spurs', 'Utah Jazz'
+    ]
+}
+
 TEAM_COLORS = {
     'Los Angeles Lakers': 'rgb(85,37,130)',
     'Phoenix Suns': 'rgb(29,17,96)',
@@ -165,20 +182,24 @@ def elo_bar_plot(current_elos):
 
     return fig
 
-def elo_line_plot(elo_histories, focused_team=None):
+def elo_line_plot(elo_histories, focused_teams=None):
     games = list(range(0, 83))
     
     fig = go.Figure()
     
+    # Convert focused_teams to list if it's None
+    if focused_teams is None:
+        focused_teams = ['Golden State Warriors'] # go dubs
+    
     # Add teams with enhanced styling
     for team, elo in elo_histories.items():
-        # Determine line styling based on whether this is the focused team
-        if team == focused_team:
+        # Determine line styling based on whether this is a focused team
+        if team in focused_teams:
             line_width = 4
             opacity = 1.0
         else:
             line_width = 1
-            opacity = 0.4
+            opacity = 0.2
         
         # Add the line trace
         fig.add_trace(go.Scatter(
@@ -195,7 +216,7 @@ def elo_line_plot(elo_histories, focused_team=None):
         ))
         
         # Add end-of-line labels
-        if team == focused_team or focused_team is None:
+        if team in focused_teams or not focused_teams:
             fig.add_annotation(
                 x=games[-1],
                 y=elo[-1],
@@ -328,28 +349,29 @@ def main():
     current_elos, elo_histories = calculate_elos(schedule, current_elos, elo_histories)
 
     # Create tabs for different visualizations
-    tab1, tab2, tab3 = st.tabs(["Current Ratings", "Rating History", "Rating Changes"])
+    tab1, tab2, tab3 = st.tabs(["Rating History", "Current Rating", "Rating Changes"])
+
 
     with tab1:
+        st.header("Elo Rating History")
+        st.write("Here we can track each team's progress across the 2024-25 NBA season. Updated nightly!")
+        # Add multiselect for teams
+        focused_teams = st.multiselect(
+            "Select teams to highlight:",
+            options=sorted(team_names),
+            default=['Golden State Warriors'],  # go dubs
+            help="You can select multiple teams to compare their performance"
+        )
+        
+        fig_line = elo_line_plot(elo_histories, focused_teams)
+        st.plotly_chart(fig_line, use_container_width=True)
+
+
+    with tab2:
         st.header("Current NBA Team Elo Ratings")
         st.write("This plot reflects the current Elo standings in the NBA. Higher is better!")
         fig_bar = elo_bar_plot(current_elos)
         st.plotly_chart(fig_bar, use_container_width=True)
-
-    with tab2:
-        st.header("Elo Rating History")
-        st.write("Here we can track each team's progress across the 2024-25 NBA season. Updated nightly!")
-        # Add team selector
-        focused_team = st.selectbox(
-            "Select a team to focus on:",
-            options= sorted(team_names),
-            index=0
-        )
-        
-        # Pass None if "All Teams" is selected, otherwise pass the team name
-        selected_team = None if focused_team == "All Teams" else focused_team
-        fig_line = elo_line_plot(elo_histories, selected_team)
-        st.plotly_chart(fig_line, use_container_width=True)
     
     with tab3:
         st.header("Elo Rating Changes")
