@@ -155,14 +155,14 @@ Date,Start (ET),Visitor/Neutral,away_pts,Home/Neutral,home_pts,Box Score,OT,Atte
 "Mon, Nov 11, 2024",8:00p,Brooklyn Nets,107,New Orleans Pelicans,105,Box Score,,"16,895",2:18,Smoothie King Center,
 "Mon, Nov 11, 2024",8:00p,Los Angeles Clippers,128,Oklahoma City Thunder,134,Box Score,,"17,430",2:25,Paycom Center,
 "Mon, Nov 11, 2024",8:00p,Sacramento Kings,96,San Antonio Spurs,116,Box Score,,"17,163",2:03,Frost Bank Center,
-"Tue, Nov 12, 2024",7:00p,Atlanta Hawks,117,Boston Celtics,116,Box Score,,"19,156",2:13,TD Garden,In-Season Tournament
-"Tue, Nov 12, 2024",7:00p,Miami Heat,121,Detroit Pistons,123,Box Score,OT,"17,806",2:36,Little Caesars Arena,In-Season Tournament
-"Tue, Nov 12, 2024",7:00p,Charlotte Hornets,89,Orlando Magic,114,Box Score,,"17,541",2:12,Kia Center,In-Season Tournament
-"Tue, Nov 12, 2024",7:30p,New York Knicks,111,Philadelphia 76ers,99,Box Score,,"19,758",2:24,Wells Fargo Center,In-Season Tournament
-"Tue, Nov 12, 2024",8:00p,Toronto Raptors,85,Milwaukee Bucks,99,Box Score,,"17,341",2:14,Fiserv Forum,In-Season Tournament
-"Tue, Nov 12, 2024",9:00p,Phoenix Suns,120,Utah Jazz,112,Box Score,,"18,175",2:05,Delta Center,In-Season Tournament
-"Tue, Nov 12, 2024",10:00p,Dallas Mavericks,117,Golden State Warriors,120,Box Score,,"18,064",2:25,Chase Center,In-Season Tournament
-"Tue, Nov 12, 2024",10:00p,Minnesota Timberwolves,108,Portland Trail Blazers,122,Box Score,,"16,880",2:14,Moda Center,In-Season Tournament
+"Tue, Nov 12, 2024",7:00p,Atlanta Hawks,117,Boston Celtics,116,Box Score,,"19,156",2:13,TD Garden,NBA Cup
+"Tue, Nov 12, 2024",7:00p,Miami Heat,121,Detroit Pistons,123,Box Score,OT,"17,806",2:36,Little Caesars Arena,NBA Cup
+"Tue, Nov 12, 2024",7:00p,Charlotte Hornets,89,Orlando Magic,114,Box Score,,"17,541",2:12,Kia Center,NBA Cup
+"Tue, Nov 12, 2024",7:30p,New York Knicks,111,Philadelphia 76ers,99,Box Score,,"19,758",2:24,Wells Fargo Center,NBA Cup
+"Tue, Nov 12, 2024",8:00p,Toronto Raptors,85,Milwaukee Bucks,99,Box Score,,"17,341",2:14,Fiserv Forum,NBA Cup
+"Tue, Nov 12, 2024",9:00p,Phoenix Suns,120,Utah Jazz,112,Box Score,,"18,175",2:05,Delta Center,NBA Cup
+"Tue, Nov 12, 2024",10:00p,Dallas Mavericks,117,Golden State Warriors,120,Box Score,,"18,064",2:25,Chase Center,NBA Cup
+"Tue, Nov 12, 2024",10:00p,Minnesota Timberwolves,108,Portland Trail Blazers,122,Box Score,,"16,880",2:14,Moda Center,NBA Cup
 "Wed, Nov 13, 2024",7:00p,Indiana Pacers,90,Orlando Magic,94,Box Score,,"17,087",2:10,Kia Center,
 "Wed, Nov 13, 2024",7:30p,Boston Celtics,139,Brooklyn Nets,114,Box Score,,"18,112",2:10,Barclays Center,
 "Wed, Nov 13, 2024",7:30p,Chicago Bulls,124,New York Knicks,123,Box Score,,"19,812",2:16,Madison Square Garden (IV),
@@ -175,18 +175,18 @@ Date,Start (ET),Visitor/Neutral,away_pts,Home/Neutral,home_pts,Box Score,OT,Atte
 "Wed, Nov 13, 2024",10:00p,Minnesota Timberwolves,98,Portland Trail Blazers,106,Box Score,,"17,353",2:13,Moda Center,
 "Wed, Nov 13, 2024",10:00p,Phoenix Suns,104,Sacramento Kings,127,Box Score,,"16,204",2:02,Golden 1 Center,
 "Thu, Nov 14, 2024",9:00p,Dallas Mavericks,113,Utah Jazz,115,Box Score,,"18,175",2:10,Delta Center,
-"Fri, Nov 15, 2024",7:00p,Miami Heat,124,Indiana Pacers,111,Box Score,,"17,274",2:10,Gainbridge Fieldhouse,In-Season Tournament
-"Fri, Nov 15, 2024",7:00p,Philadelphia 76ers,86,Orlando Magic,98,Box Score,,"17,843",2:25,Kia Center,In-Season Tournament
-"Fri, Nov 15, 2024",7:00p,Detroit Pistons,99,Toronto Raptors,95,Box Score,,"19,245",2:20,Scotiabank Arena,In-Season Tournament
-"Fri, Nov 15, 2024",7:30p,Washington Wizards,117,Atlanta Hawks,129,Box Score,,"16,038",2:15,State Farm Arena,In-Season Tournament
-"Fri, Nov 15, 2024",7:30p,Chicago Bulls,126,Cleveland Cavaliers,144,Box Score,,"19,432",2:11,Rocket Mortgage Fieldhouse,In-Season Tournament
-"Fri, Nov 15, 2024",7:30p,Brooklyn Nets,122,New York Knicks,124,Box Score,,"19,812",2:43,Madison Square Garden (IV),In-Season Tournament
-"Fri, Nov 15, 2024",7:30p,Los Angeles Lakers,120,San Antonio Spurs,115,Box Score,,"18,916",2:18,Frost Bank Center,In-Season Tournament
-"Fri, Nov 15, 2024",8:00p,Los Angeles Clippers,104,Houston Rockets,125,Box Score,,"18,055",2:13,Toyota Center,In-Season Tournament
-"Fri, Nov 15, 2024",8:00p,Denver Nuggets,94,New Orleans Pelicans,101,Box Score,,"16,137",2:04,Smoothie King Center,In-Season Tournament
-"Fri, Nov 15, 2024",8:00p,Phoenix Suns,83,Oklahoma City Thunder,99,Box Score,,"18,203",2:17,Paycom Center,In-Season Tournament
-"Fri, Nov 15, 2024",10:00p,Memphis Grizzlies,118,Golden State Warriors,123,Box Score,,"18,064",2:35,Chase Center,In-Season Tournament
-"Fri, Nov 15, 2024",10:00p,Minnesota Timberwolves,130,Sacramento Kings,126,Box Score,OT,"16,478",2:25,Golden 1 Center,In-Season Tournament
+"Fri, Nov 15, 2024",7:00p,Miami Heat,124,Indiana Pacers,111,Box Score,,"17,274",2:10,Gainbridge Fieldhouse,NBA Cup
+"Fri, Nov 15, 2024",7:00p,Philadelphia 76ers,86,Orlando Magic,98,Box Score,,"17,843",2:25,Kia Center,NBA Cup
+"Fri, Nov 15, 2024",7:00p,Detroit Pistons,99,Toronto Raptors,95,Box Score,,"19,245",2:20,Scotiabank Arena,NBA Cup
+"Fri, Nov 15, 2024",7:30p,Washington Wizards,117,Atlanta Hawks,129,Box Score,,"16,038",2:15,State Farm Arena,NBA Cup
+"Fri, Nov 15, 2024",7:30p,Chicago Bulls,126,Cleveland Cavaliers,144,Box Score,,"19,432",2:11,Rocket Mortgage Fieldhouse,NBA Cup
+"Fri, Nov 15, 2024",7:30p,Brooklyn Nets,122,New York Knicks,124,Box Score,,"19,812",2:43,Madison Square Garden (IV),NBA Cup
+"Fri, Nov 15, 2024",7:30p,Los Angeles Lakers,120,San Antonio Spurs,115,Box Score,,"18,916",2:18,Frost Bank Center,NBA Cup
+"Fri, Nov 15, 2024",8:00p,Los Angeles Clippers,104,Houston Rockets,125,Box Score,,"18,055",2:13,Toyota Center,NBA Cup
+"Fri, Nov 15, 2024",8:00p,Denver Nuggets,94,New Orleans Pelicans,101,Box Score,,"16,137",2:04,Smoothie King Center,NBA Cup
+"Fri, Nov 15, 2024",8:00p,Phoenix Suns,83,Oklahoma City Thunder,99,Box Score,,"18,203",2:17,Paycom Center,NBA Cup
+"Fri, Nov 15, 2024",10:00p,Memphis Grizzlies,118,Golden State Warriors,123,Box Score,,"18,064",2:35,Chase Center,NBA Cup
+"Fri, Nov 15, 2024",10:00p,Minnesota Timberwolves,130,Sacramento Kings,126,Box Score,OT,"16,478",2:25,Golden 1 Center,NBA Cup
 "Sat, Nov 16, 2024",3:00p,Milwaukee Bucks,114,Charlotte Hornets,115,Box Score,,"19,145",2:15,Spectrum Center,
 "Sat, Nov 16, 2024",8:00p,Toronto Raptors,123,Boston Celtics,126,Box Score,OT,"19,156",2:27,TD Garden,
 "Sat, Nov 16, 2024",8:00p,Los Angeles Lakers,104,New Orleans Pelicans,99,Box Score,,"18,761",2:12,Smoothie King Center,
@@ -210,12 +210,12 @@ Date,Start (ET),Visitor/Neutral,away_pts,Home/Neutral,home_pts,Box Score,OT,Atte
 "Mon, Nov 18, 2024",9:00p,Orlando Magic,109,Phoenix Suns,99,Box Score,,"17,071",2:21,Footprint Center,
 "Mon, Nov 18, 2024",10:00p,Atlanta Hawks,109,Sacramento Kings,108,Box Score,,"16,333",2:10,Golden 1 Center,
 "Mon, Nov 18, 2024",10:30p,Golden State Warriors,99,Los Angeles Clippers,102,Box Score,,"17,927",2:11,Intuit Dome,
-"Tue, Nov 19, 2024",7:00p,Cleveland Cavaliers,117,Boston Celtics,120,Box Score,,"19,156",2:16,TD Garden,In-Season Tournament
-"Tue, Nov 19, 2024",7:30p,Charlotte Hornets,115,Brooklyn Nets,116,Box Score,,"18,117",2:32,Barclays Center,In-Season Tournament
-"Tue, Nov 19, 2024",8:00p,Denver Nuggets,122,Memphis Grizzlies,110,Box Score,,"15,377",2:25,FedEx Forum,In-Season Tournament
-"Tue, Nov 19, 2024",8:30p,New Orleans Pelicans,91,Dallas Mavericks,132,Box Score,,"20,077",2:08,American Airlines Center,In-Season Tournament
-"Tue, Nov 19, 2024",9:30p,Oklahoma City Thunder,104,San Antonio Spurs,110,Box Score,,"16,667",2:16,Frost Bank Center,In-Season Tournament
-"Tue, Nov 19, 2024",10:30p,Utah Jazz,118,Los Angeles Lakers,124,Box Score,,"18,997",2:16,Crypto.com Arena,In-Season Tournament
+"Tue, Nov 19, 2024",7:00p,Cleveland Cavaliers,117,Boston Celtics,120,Box Score,,"19,156",2:16,TD Garden,NBA Cup
+"Tue, Nov 19, 2024",7:30p,Charlotte Hornets,115,Brooklyn Nets,116,Box Score,,"18,117",2:32,Barclays Center,NBA Cup
+"Tue, Nov 19, 2024",8:00p,Denver Nuggets,122,Memphis Grizzlies,110,Box Score,,"15,377",2:25,FedEx Forum,NBA Cup
+"Tue, Nov 19, 2024",8:30p,New Orleans Pelicans,91,Dallas Mavericks,132,Box Score,,"20,077",2:08,American Airlines Center,NBA Cup
+"Tue, Nov 19, 2024",9:30p,Oklahoma City Thunder,104,San Antonio Spurs,110,Box Score,,"16,667",2:16,Frost Bank Center,NBA Cup
+"Tue, Nov 19, 2024",10:30p,Utah Jazz,118,Los Angeles Lakers,124,Box Score,,"18,997",2:16,Crypto.com Arena,NBA Cup
 "Wed, Nov 20, 2024",7:30p,New Orleans Pelicans,100,Cleveland Cavaliers,128,Box Score,,"19,432",1:59,Rocket Mortgage Fieldhouse,
 "Wed, Nov 20, 2024",7:30p,Chicago Bulls,106,Milwaukee Bucks,122,Box Score,,"17,341",2:18,Fiserv Forum,
 "Wed, Nov 20, 2024",8:00p,Indiana Pacers,113,Houston Rockets,130,Box Score,,"16,087",2:18,Toyota Center,
@@ -228,14 +228,14 @@ Date,Start (ET),Visitor/Neutral,away_pts,Home/Neutral,home_pts,Box Score,OT,Atte
 "Thu, Nov 21, 2024",7:30p,Minnesota Timberwolves,105,Toronto Raptors,110,Box Score,,"19,296",2:24,Scotiabank Arena,
 "Thu, Nov 21, 2024",8:00p,Utah Jazz,118,San Antonio Spurs,126,Box Score,,"17,087",2:22,Frost Bank Center,
 "Thu, Nov 21, 2024",10:30p,Orlando Magic,119,Los Angeles Lakers,118,Box Score,,"18,997",2:21,Crypto.com Arena,
-"Fri, Nov 22, 2024",7:00p,Brooklyn Nets,98,Philadelphia 76ers,113,Box Score,,"19,817",2:06,Wells Fargo Center,In-Season Tournament
-"Fri, Nov 22, 2024",7:00p,Boston Celtics,108,Washington Wizards,96,Box Score,,"20,385",2:24,Capital One Arena,In-Season Tournament
-"Fri, Nov 22, 2024",7:30p,Golden State Warriors,112,New Orleans Pelicans,108,Box Score,,"16,820",2:28,Smoothie King Center,In-Season Tournament
-"Fri, Nov 22, 2024",8:00p,Atlanta Hawks,122,Chicago Bulls,136,Box Score,,"19,979",2:08,United Center,In-Season Tournament
-"Fri, Nov 22, 2024",8:00p,Portland Trail Blazers,88,Houston Rockets,116,Box Score,,"15,546",2:10,Toyota Center,In-Season Tournament
-"Fri, Nov 22, 2024",8:00p,Indiana Pacers,117,Milwaukee Bucks,129,Box Score,,"17,341",2:16,Fiserv Forum,In-Season Tournament
-"Fri, Nov 22, 2024",10:00p,Dallas Mavericks,123,Denver Nuggets,120,Box Score,,"19,923",2:29,Ball Arena,In-Season Tournament
-"Fri, Nov 22, 2024",10:30p,Sacramento Kings,88,Los Angeles Clippers,104,Box Score,,"16,228",,Intuit Dome,In-Season Tournament
+"Fri, Nov 22, 2024",7:00p,Brooklyn Nets,98,Philadelphia 76ers,113,Box Score,,"19,817",2:06,Wells Fargo Center,NBA Cup
+"Fri, Nov 22, 2024",7:00p,Boston Celtics,108,Washington Wizards,96,Box Score,,"20,385",2:24,Capital One Arena,NBA Cup
+"Fri, Nov 22, 2024",7:30p,Golden State Warriors,112,New Orleans Pelicans,108,Box Score,,"16,820",2:28,Smoothie King Center,NBA Cup
+"Fri, Nov 22, 2024",8:00p,Atlanta Hawks,122,Chicago Bulls,136,Box Score,,"19,979",2:08,United Center,NBA Cup
+"Fri, Nov 22, 2024",8:00p,Portland Trail Blazers,88,Houston Rockets,116,Box Score,,"15,546",2:10,Toyota Center,NBA Cup
+"Fri, Nov 22, 2024",8:00p,Indiana Pacers,117,Milwaukee Bucks,129,Box Score,,"17,341",2:16,Fiserv Forum,NBA Cup
+"Fri, Nov 22, 2024",10:00p,Dallas Mavericks,123,Denver Nuggets,120,Box Score,,"19,923",2:29,Ball Arena,NBA Cup
+"Fri, Nov 22, 2024",10:30p,Sacramento Kings,88,Los Angeles Clippers,104,Box Score,,"16,228",,Intuit Dome,NBA Cup
 "Sat, Nov 23, 2024",5:00p,New York Knicks,106,Utah Jazz,121,Box Score,,"18,175",2:07,Delta Center,
 "Sat, Nov 23, 2024",7:00p,Detroit Pistons,100,Orlando Magic,111,Box Score,,"19,094",2:13,Kia Center,
 "Sat, Nov 23, 2024",8:00p,Memphis Grizzlies,142,Chicago Bulls,131,Box Score,,"19,449",2:07,United Center,
@@ -258,11 +258,11 @@ Date,Start (ET),Visitor/Neutral,away_pts,Home/Neutral,home_pts,Box Score,OT,Atte
 "Mon, Nov 25, 2024",9:00p,New York Knicks,145,Denver Nuggets,118,Box Score,,"19,842",,Ball Arena,
 "Mon, Nov 25, 2024",10:00p,Brooklyn Nets,128,Golden State Warriors,120,Box Score,,"18,064",2:22,Chase Center,
 "Mon, Nov 25, 2024",10:00p,Oklahoma City Thunder,130,Sacramento Kings,109,Box Score,,"17,832",2:11,Golden 1 Center,
-"Tue, Nov 26, 2024",7:00p,Chicago Bulls,127,Washington Wizards,108,Box Score,,"15,921",2:13,Capital One Arena,In-Season Tournament
-"Tue, Nov 26, 2024",7:30p,Milwaukee Bucks,106,Miami Heat,103,Box Score,,"19,622",2:21,Kaseya Center,In-Season Tournament
-"Tue, Nov 26, 2024",8:00p,Houston Rockets,117,Minnesota Timberwolves,111,Box Score,OT,"18,978",2:18,Target Center,In-Season Tournament
-"Tue, Nov 26, 2024",9:00p,San Antonio Spurs,128,Utah Jazz,115,Box Score,,"18,175",2:19,Delta Center,In-Season Tournament
-"Tue, Nov 26, 2024",10:00p,Los Angeles Lakers,100,Phoenix Suns,127,Box Score,,"17,071",2:18,Footprint Center,In-Season Tournament
+"Tue, Nov 26, 2024",7:00p,Chicago Bulls,127,Washington Wizards,108,Box Score,,"15,921",2:13,Capital One Arena,NBA Cup
+"Tue, Nov 26, 2024",7:30p,Milwaukee Bucks,106,Miami Heat,103,Box Score,,"19,622",2:21,Kaseya Center,NBA Cup
+"Tue, Nov 26, 2024",8:00p,Houston Rockets,117,Minnesota Timberwolves,111,Box Score,OT,"18,978",2:18,Target Center,NBA Cup
+"Tue, Nov 26, 2024",9:00p,San Antonio Spurs,128,Utah Jazz,115,Box Score,,"18,175",2:19,Delta Center,NBA Cup
+"Tue, Nov 26, 2024",10:00p,Los Angeles Lakers,100,Phoenix Suns,127,Box Score,,"17,071",2:18,Footprint Center,NBA Cup
 "Wed, Nov 27, 2024",7:00p,Miami Heat,98,Charlotte Hornets,94,Box Score,,"17,710",2:14,Spectrum Center,
 "Wed, Nov 27, 2024",7:00p,Atlanta Hawks,135,Cleveland Cavaliers,124,Box Score,,"19,432",2:18,Rocket Mortgage Fieldhouse,
 "Wed, Nov 27, 2024",7:00p,Portland Trail Blazers,114,Indiana Pacers,121,Box Score,,"17,274",2:15,Gainbridge Fieldhouse,
@@ -277,16 +277,16 @@ Date,Start (ET),Visitor/Neutral,away_pts,Home/Neutral,home_pts,Box Score,OT,Atte
 "Wed, Nov 27, 2024",9:00p,Brooklyn Nets,127,Phoenix Suns,117,Box Score,,"17,071",2:23,Footprint Center,
 "Wed, Nov 27, 2024",9:00p,Denver Nuggets,122,Utah Jazz,103,Box Score,,"18,175",2:05,Delta Center,
 "Wed, Nov 27, 2024",10:00p,Oklahoma City Thunder,105,Golden State Warriors,101,Box Score,,"18,064",2:24,Chase Center,
-"Fri, Nov 29, 2024",12:00p,New York Knicks,99,Charlotte Hornets,98,Box Score,,"19,313",2:17,Spectrum Center,In-Season Tournament
-"Fri, Nov 29, 2024",2:30p,Cleveland Cavaliers,101,Atlanta Hawks,117,Box Score,,"17,881",2:12,State Farm Arena,In-Season Tournament
-"Fri, Nov 29, 2024",5:00p,New Orleans Pelicans,109,Memphis Grizzlies,120,Box Score,,"17,014",2:09,FedEx Forum,In-Season Tournament
-"Fri, Nov 29, 2024",7:30p,Orlando Magic,123,Brooklyn Nets,100,Box Score,,"18,143",2:13,Barclays Center,In-Season Tournament
-"Fri, Nov 29, 2024",7:30p,Los Angeles Clippers,92,Minnesota Timberwolves,93,Box Score,,"18,978",2:10,Target Center,In-Season Tournament
-"Fri, Nov 29, 2024",8:00p,Boston Celtics,138,Chicago Bulls,129,Box Score,,"19,798",2:08,United Center,In-Season Tournament
-"Fri, Nov 29, 2024",8:00p,Detroit Pistons,130,Indiana Pacers,106,Box Score,,"17,274",2:11,Gainbridge Fieldhouse,In-Season Tournament
-"Fri, Nov 29, 2024",8:00p,Toronto Raptors,111,Miami Heat,121,Box Score,,"19,607",2:13,Kaseya Center,In-Season Tournament
-"Fri, Nov 29, 2024",10:00p,Oklahoma City Thunder,101,Los Angeles Lakers,93,Box Score,,"18,997",2:16,Crypto.com Arena,In-Season Tournament
-"Fri, Nov 29, 2024",10:00p,Sacramento Kings,106,Portland Trail Blazers,115,Box Score,,"17,565",2:12,Moda Center,In-Season Tournament
+"Fri, Nov 29, 2024",12:00p,New York Knicks,99,Charlotte Hornets,98,Box Score,,"19,313",2:17,Spectrum Center,NBA Cup
+"Fri, Nov 29, 2024",2:30p,Cleveland Cavaliers,101,Atlanta Hawks,117,Box Score,,"17,881",2:12,State Farm Arena,NBA Cup
+"Fri, Nov 29, 2024",5:00p,New Orleans Pelicans,109,Memphis Grizzlies,120,Box Score,,"17,014",2:09,FedEx Forum,NBA Cup
+"Fri, Nov 29, 2024",7:30p,Orlando Magic,123,Brooklyn Nets,100,Box Score,,"18,143",2:13,Barclays Center,NBA Cup
+"Fri, Nov 29, 2024",7:30p,Los Angeles Clippers,92,Minnesota Timberwolves,93,Box Score,,"18,978",2:10,Target Center,NBA Cup
+"Fri, Nov 29, 2024",8:00p,Boston Celtics,138,Chicago Bulls,129,Box Score,,"19,798",2:08,United Center,NBA Cup
+"Fri, Nov 29, 2024",8:00p,Detroit Pistons,130,Indiana Pacers,106,Box Score,,"17,274",2:11,Gainbridge Fieldhouse,NBA Cup
+"Fri, Nov 29, 2024",8:00p,Toronto Raptors,111,Miami Heat,121,Box Score,,"19,607",2:13,Kaseya Center,NBA Cup
+"Fri, Nov 29, 2024",10:00p,Oklahoma City Thunder,101,Los Angeles Lakers,93,Box Score,,"18,997",2:16,Crypto.com Arena,NBA Cup
+"Fri, Nov 29, 2024",10:00p,Sacramento Kings,106,Portland Trail Blazers,115,Box Score,,"17,565",2:12,Moda Center,NBA Cup
 "Sat, Nov 30, 2024",6:00p,Atlanta Hawks,107,Charlotte Hornets,104,Box Score,,"17,969",2:20,Spectrum Center,
 "Sat, Nov 30, 2024",7:00p,Philadelphia 76ers,111,Detroit Pistons,96,Box Score,,"22,062",2:12,Little Caesars Arena,
 "Sat, Nov 30, 2024",8:00p,Washington Wizards,114,Milwaukee Bucks,124,Box Score,,"17,341",2:20,Fiserv Forum,
@@ -306,17 +306,17 @@ Date,Start (ET),Visitor/Neutral,away_pts,Home/Neutral,home_pts,Box Score,OT,Atte
 "Mon, Dec 2, 2024",7:30p,Miami Heat,89,Boston Celtics,108,Box Score,,"19,156",2:02,TD Garden,
 "Mon, Dec 2, 2024",8:00p,Brooklyn Nets,102,Chicago Bulls,128,Box Score,,"19,131",2:09,United Center,
 "Mon, Dec 2, 2024",8:00p,Los Angeles Lakers,80,Minnesota Timberwolves,109,Box Score,,"18,978",2:03,Target Center,
-"Tue, Dec 3, 2024",7:00p,Philadelphia 76ers,110,Charlotte Hornets,104,Box Score,,"14,956",2:18,Spectrum Center,In-Season Tournament
-"Tue, Dec 3, 2024",7:00p,Washington Wizards,87,Cleveland Cavaliers,118,Box Score,,"19,432",2:09,Rocket Mortgage Fieldhouse,In-Season Tournament
-"Tue, Dec 3, 2024",7:00p,Milwaukee Bucks,128,Detroit Pistons,107,Box Score,,"17,988",2:10,Little Caesars Arena,In-Season Tournament
-"Tue, Dec 3, 2024",7:30p,Orlando Magic,106,New York Knicks,121,Box Score,,"19,812",2:26,Madison Square Garden (IV),In-Season Tournament
-"Tue, Dec 3, 2024",7:30p,Indiana Pacers,111,Toronto Raptors,122,Box Score,,"17,741",2:17,Scotiabank Arena,In-Season Tournament
-"Tue, Dec 3, 2024",8:00p,Utah Jazz,106,Oklahoma City Thunder,133,Box Score,,"17,711",2:13,Paycom Center,In-Season Tournament
-"Tue, Dec 3, 2024",8:30p,Memphis Grizzlies,116,Dallas Mavericks,121,Box Score,,"20,277",2:35,American Airlines Center,In-Season Tournament
-"Tue, Dec 3, 2024",9:00p,San Antonio Spurs,93,Phoenix Suns,104,Box Score,,"17,071",2:15,Footprint Center,In-Season Tournament
-"Tue, Dec 3, 2024",10:00p,Golden State Warriors,115,Denver Nuggets,119,Box Score,,"19,912",2:26,Ball Arena,In-Season Tournament
-"Tue, Dec 3, 2024",10:00p,Houston Rockets,111,Sacramento Kings,120,Box Score,,"15,019",2:21,Golden 1 Center,In-Season Tournament
-"Tue, Dec 3, 2024",10:30p,Portland Trail Blazers,105,Los Angeles Clippers,127,Box Score,,"15,583",2:06,Intuit Dome,In-Season Tournament
+"Tue, Dec 3, 2024",7:00p,Philadelphia 76ers,110,Charlotte Hornets,104,Box Score,,"14,956",2:18,Spectrum Center,NBA Cup
+"Tue, Dec 3, 2024",7:00p,Washington Wizards,87,Cleveland Cavaliers,118,Box Score,,"19,432",2:09,Rocket Mortgage Fieldhouse,NBA Cup
+"Tue, Dec 3, 2024",7:00p,Milwaukee Bucks,128,Detroit Pistons,107,Box Score,,"17,988",2:10,Little Caesars Arena,NBA Cup
+"Tue, Dec 3, 2024",7:30p,Orlando Magic,106,New York Knicks,121,Box Score,,"19,812",2:26,Madison Square Garden (IV),NBA Cup
+"Tue, Dec 3, 2024",7:30p,Indiana Pacers,111,Toronto Raptors,122,Box Score,,"17,741",2:17,Scotiabank Arena,NBA Cup
+"Tue, Dec 3, 2024",8:00p,Utah Jazz,106,Oklahoma City Thunder,133,Box Score,,"17,711",2:13,Paycom Center,NBA Cup
+"Tue, Dec 3, 2024",8:30p,Memphis Grizzlies,116,Dallas Mavericks,121,Box Score,,"20,277",2:35,American Airlines Center,NBA Cup
+"Tue, Dec 3, 2024",9:00p,San Antonio Spurs,93,Phoenix Suns,104,Box Score,,"17,071",2:15,Footprint Center,NBA Cup
+"Tue, Dec 3, 2024",10:00p,Golden State Warriors,115,Denver Nuggets,119,Box Score,,"19,912",2:26,Ball Arena,NBA Cup
+"Tue, Dec 3, 2024",10:00p,Houston Rockets,111,Sacramento Kings,120,Box Score,,"15,019",2:21,Golden 1 Center,NBA Cup
+"Tue, Dec 3, 2024",10:30p,Portland Trail Blazers,105,Los Angeles Clippers,127,Box Score,,"15,583",2:06,Intuit Dome,NBA Cup
 "Wed, Dec 4, 2024",7:30p,Detroit Pistons,120,Boston Celtics,130,Box Score,,"19,156",2:12,TD Garden,
 "Wed, Dec 4, 2024",7:30p,Indiana Pacers,90,Brooklyn Nets,99,Box Score,,"16,748",2:16,Barclays Center,
 "Wed, Dec 4, 2024",7:30p,Los Angeles Lakers,93,Miami Heat,134,Box Score,,"19,657",1:59,Kaseya Center,
@@ -358,10 +358,10 @@ Date,Start (ET),Visitor/Neutral,away_pts,Home/Neutral,home_pts,Box Score,OT,Atte
 "Sun, Dec 8, 2024",9:00p,Utah Jazz,97,Sacramento Kings,141,Box Score,,"15,706",2:09,Golden 1 Center,
 "Sun, Dec 8, 2024",9:30p,Portland Trail Blazers,98,Los Angeles Lakers,107,Box Score,,"18,997",2:07,Crypto.com Arena,
 "Mon, Dec 9, 2024",7:30p,New York Knicks,113,Toronto Raptors,108,Box Score,,"18,284",2:17,Scotiabank Arena,
-"Tue, Dec 10, 2024",7:00p,Orlando Magic,109,Milwaukee Bucks,114,Box Score,,"17,341",2:35,Fiserv Forum,In-Season Tournament
-"Tue, Dec 10, 2024",9:30p,Dallas Mavericks,104,Oklahoma City Thunder,118,Box Score,,"17,724",2:08,Paycom Center,In-Season Tournament
-"Wed, Dec 11, 2024",7:00p,Atlanta Hawks,108,New York Knicks,100,Box Score,,"19,812",2:13,Madison Square Garden (IV),In-Season Tournament
-"Wed, Dec 11, 2024",9:30p,Golden State Warriors,90,Houston Rockets,91,Box Score,,"18,055",2:17,Toyota Center,In-Season Tournament
+"Tue, Dec 10, 2024",7:00p,Orlando Magic,109,Milwaukee Bucks,114,Box Score,,"17,341",2:35,Fiserv Forum,NBA Cup
+"Tue, Dec 10, 2024",9:30p,Dallas Mavericks,104,Oklahoma City Thunder,118,Box Score,,"17,724",2:08,Paycom Center,NBA Cup
+"Wed, Dec 11, 2024",7:00p,Atlanta Hawks,108,New York Knicks,100,Box Score,,"19,812",2:13,Madison Square Garden (IV),NBA Cup
+"Wed, Dec 11, 2024",9:30p,Golden State Warriors,90,Houston Rockets,91,Box Score,,"18,055",2:17,Toyota Center,NBA Cup
 "Thu, Dec 12, 2024",7:30p,Detroit Pistons,99,Boston Celtics,123,Box Score,,"19,156",1:57,TD Garden,
 "Thu, Dec 12, 2024",7:30p,Toronto Raptors,104,Miami Heat,114,Box Score,,"19,600",2:14,Kaseya Center,
 "Thu, Dec 12, 2024",8:00p,Sacramento Kings,111,New Orleans Pelicans,109,Box Score,,"15,488",2:12,Smoothie King Center,
@@ -373,8 +373,8 @@ Date,Start (ET),Visitor/Neutral,away_pts,Home/Neutral,home_pts,Box Score,OT,Atte
 "Fri, Dec 13, 2024",9:00p,Los Angeles Clippers,98,Denver Nuggets,120,Box Score,,"19,779",2:13,Ball Arena,
 "Fri, Dec 13, 2024",9:30p,Phoenix Suns,134,Utah Jazz,126,Box Score,,"18,175",2:11,Delta Center,
 "Fri, Dec 13, 2024",10:00p,San Antonio Spurs,118,Portland Trail Blazers,116,Box Score,,"17,025",2:16,Moda Center,
-"Sat, Dec 14, 2024",4:30p,Atlanta Hawks,102,Milwaukee Bucks,110,Box Score,,"17,113",2:30,T-Mobile Arena,In-Season Tournament
-"Sat, Dec 14, 2024",8:30p,Houston Rockets,96,Oklahoma City Thunder,111,Box Score,,"17,937",2:24,T-Mobile Arena,In-Season Tournament
+"Sat, Dec 14, 2024",4:30p,Atlanta Hawks,102,Milwaukee Bucks,110,Box Score,,"17,113",2:30,T-Mobile Arena,NBA Cup
+"Sat, Dec 14, 2024",8:30p,Houston Rockets,96,Oklahoma City Thunder,111,Box Score,,"17,937",2:24,T-Mobile Arena,NBA Cup
 "Sun, Dec 15, 2024",5:00p,New Orleans Pelicans,104,Indiana Pacers,119,Box Score,,"16,792",2:08,Gainbridge Fieldhouse,
 "Sun, Dec 15, 2024",6:00p,New York Knicks,100,Orlando Magic,91,Box Score,,"17,029",2:22,Kia Center,
 "Sun, Dec 15, 2024",6:00p,Boston Celtics,112,Washington Wizards,98,Box Score,,"16,227",2:05,Capital One Arena,
@@ -388,7 +388,7 @@ Date,Start (ET),Visitor/Neutral,away_pts,Home/Neutral,home_pts,Box Score,OT,Atte
 "Mon, Dec 16, 2024",7:30p,Chicago Bulls,122,Toronto Raptors,121,Box Score,,"16,324",2:25,Scotiabank Arena,
 "Mon, Dec 16, 2024",10:00p,Denver Nuggets,130,Sacramento Kings,129,Box Score,,"16,936",2:19,Golden 1 Center,
 "Mon, Dec 16, 2024",10:30p,Utah Jazz,107,Los Angeles Clippers,144,Box Score,,"14,651",2:16,Intuit Dome,
-"Tue, Dec 17, 2024",8:30p,Milwaukee Bucks,97,Oklahoma City Thunder,81,Box Score,,"18,519",2:19,T-Mobile Arena,In-Season Tournament
+"Tue, Dec 17, 2024",8:30p,Milwaukee Bucks,97,Oklahoma City Thunder,81,Box Score,,"18,519",2:19,T-Mobile Arena,NBA Cup
 "Thu, Dec 19, 2024",7:00p,Utah Jazz,126,Detroit Pistons,119,Box Score,,"18,022",2:32,Little Caesars Arena,
 "Thu, Dec 19, 2024",7:00p,Oklahoma City Thunder,105,Orlando Magic,99,Box Score,,"18,896",2:26,Kia Center,
 "Thu, Dec 19, 2024",7:00p,Charlotte Hornets,114,Washington Wizards,123,Box Score,,"15,256",2:24,Capital One Arena,
@@ -471,3 +471,10 @@ Date,Start (ET),Visitor/Neutral,away_pts,Home/Neutral,home_pts,Box Score,OT,Atte
 "Sun, Dec 29, 2024",7:00p,Miami Heat,104,Houston Rockets,100,Box Score,,"18,055",2:19,Toyota Center,
 "Sun, Dec 29, 2024",7:00p,Memphis Grizzlies,106,Oklahoma City Thunder,130,Box Score,,"18,203",2:08,Paycom Center,
 "Sun, Dec 29, 2024",9:00p,San Antonio Spurs,110,Minnesota Timberwolves,112,Box Score,,"18,978",2:20,Target Center,
+"Mon, Dec 30, 2024",7:00p,Chicago Bulls,115,Charlotte Hornets,108,Box Score,OT,"19,197",2:24,Spectrum Center,
+"Mon, Dec 30, 2024",7:00p,New York Knicks,126,Washington Wizards,106,Box Score,,"20,385",2:10,Capital One Arena,
+"Mon, Dec 30, 2024",8:00p,Los Angeles Clippers,116,New Orleans Pelicans,113,Box Score,,"17,303",2:27,Smoothie King Center,
+"Mon, Dec 30, 2024",9:00p,Denver Nuggets,132,Utah Jazz,121,Box Score,,"18,175",2:06,Delta Center,
+"Mon, Dec 30, 2024",10:00p,Cleveland Cavaliers,113,Golden State Warriors,95,Box Score,,"18,064",2:10,Chase Center,
+"Mon, Dec 30, 2024",10:00p,Philadelphia 76ers,125,Portland Trail Blazers,103,Box Score,,"16,721",2:27,Moda Center,
+"Mon, Dec 30, 2024",10:00p,Dallas Mavericks,100,Sacramento Kings,110,Box Score,,,2:19,Golden 1 Center,
