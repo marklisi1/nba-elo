@@ -9,6 +9,9 @@ import plotly.graph_objects as go
 # Set page config
 st.set_page_config(layout="wide", page_title="NBA Elo Ratings")
 
+# Archived banner
+st.info("**This project is archived** and reflects the previous 2024–25 season. Since I started doing this stuff professionally, I let my side projects fall by the wayside — but feel free to poke around!")
+
 # Title and description
 st.title("NBA Elo Rating Tracker")
 url = "https://marklisi1.github.io/"
